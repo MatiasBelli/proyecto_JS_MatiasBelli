@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-size: auto;
+    background-image:url(../img/Biblioteca.jpg);
+}
+
+span{
+    color: rgb(240, 248, 255);
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Special Elite', cursive;
+}
+
+img{
+    width: 100px;
+    height: 80px;
+}
+
+.nav-item{
+    padding: 5px ;
+}
+
+
+.card{
+    width: 300px;
+    height: 400px;
+}
+
+.card-img-top{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+
+/*  CARRITO  */
+
+.table-hover {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.itemCartTotal {
+    width: 50%;
+    margin: 0px auto;
+}
+

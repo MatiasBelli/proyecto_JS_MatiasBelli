@@ -1,0 +1,8 @@
+[   { "nombre" : "La llamada de Cthulhu", "precio" : 3500, "autor": "H. P. Lovecraft" ,"id": 1 ,"img": "./img/lovecraft.png"},
+    { "nombre" : "El principe", "precio" : 4000,"autor": "Nicolás Maquiavelo" , "id": 2,"img": "./img/principe.jpg"},
+    { "nombre" : "El principito", "precio" : 3000,"autor": "Antoine de Saint-Exupéry" , "id": 3,"img": "./img/el-principito-portada-cke.jpg"},
+    { "nombre" : "Cien años de soledad", "precio" : 5000,"autor": "Gabriel García Márquez" , "id": 4,"img": "./img/share.jpg"},
+    { "nombre" : "El Arte de la Guerra", "precio" : 4100,"autor": "Sun Tzu" , "id": 5,"img": "./img/40fa6a6657f79a3752fbf7a8501ccebd.jpg"},
+    { "nombre" : "Viaje al fin de la noche", "precio" : 1700,"autor": "Louis-Ferdinand Céline" , "id": 6,"img": "./img/noche.jpg"}
+]
+
