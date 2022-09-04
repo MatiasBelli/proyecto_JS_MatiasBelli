@@ -28,6 +28,7 @@ let carrito = [];
 const tbody = document.querySelector('.tbody')
 const btnVaciar = document.querySelector('.vaciarCarrito');
 const agregarBtn = document.querySelectorAll('.button');
+const btnComprar = document.querySelector('.comprarCarrito')
 
 agregarBtn.forEach(btn => {
     btn.addEventListener('click', agregarAlCarrito)
@@ -181,6 +182,26 @@ window.onload = function () {
     } */
 }
 
+btnComprar.addEventListener('click',() => {
+    Swal.fire({
+        title: 'Su compra se realizo con exito',
+        timer: 1050,
+        didOpen: () => {
+            Swal.showLoading()
+            const b = Swal.getHtmlContainer().querySelector('b')
+            timerInterval = setInterval(() => {
+                b.textContent = Swal.getTimerLeft()
+            }, 100)
+        },
+        willClose: () => {
+            clearInterval(timerInterval)
+        }
+    })
+    tr = document.querySelectorAll("tr");
+            carrito = [];
+            tbody.innerHTML = '';
+            carritoTotal();
+})
 
 btnVaciar.addEventListener('click', () => {
     Swal.fire({
